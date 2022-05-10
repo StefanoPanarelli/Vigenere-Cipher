@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Vigenère</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="form">
+    <h1>La tavola di Vigenère
+
+    </h1>
+    <br>
+    <textarea rows="6" cols="50" placeholder="chiaro" onkeyup="updateChiaro(),encoding(chiaro, verme)" id="chiaro-text"></textarea>
+    <br>
+    <textarea rows="6" cols="50" placeholder="verme" onkeyup="updateVerme(),encoding(chiaro, verme)" id="verme-text"></textarea>
+    <br>
+    <textarea rows="6" cols="50" placeholder="cifrato" id="cifrato-text" readonly></textarea>
+  </div>
+<script src="js/script.js"/>
+</body>
+</html>
