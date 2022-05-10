@@ -9,8 +9,8 @@
 
 ## A COSA FARE ATTENZIONE:
 
-- Il programma accetta solo caratteri dell'alfabeto (a - z, case insensitive)!
-- Seguire bene l'ordine per citato sopra!
+- Il programma ###accetta solo caratteri dell'alfabeto (a - z, case insensitive)!
+- Seguire bene l'ordine citato sopra!
 
 ## FEATURES:
 
