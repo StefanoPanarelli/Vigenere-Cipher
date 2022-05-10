@@ -7,16 +7,12 @@
 3. Leggere il risultato cifrato
 
 
-A COSA FARE ATTENZIONE:
+## A COSA FARE ATTENZIONE:
 
-Mettere solo caratteri compresi nell'alfabeto [a-z] (non importa se maiuscolo o minuscolo).
+- Il programma accetta solo caratteri dell'alfabeto (a - z, case insensitive)!
+- Seguire bene l'ordine per citato sopra!
 
-Quindi sono esclusi: 
+## FEATURES:
 
-- simboli speciali (! ? ' " * - _ , etc)
-
-- spazi
-
-- numeri
-
-- lettere con accenti o lettere non comprese nell'alfabeto [a-z]
+- Cifraccio in tempo reale
+- Controllo caratteri in tempo reale
