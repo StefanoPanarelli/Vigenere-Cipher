@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Cifraccio con la Tavola di Vigenère">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Stefano Panarelli">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vigenère encoding</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="form">
+    <h1>La tavola di Vigenère
+      <h2>Encoding</h2>
+    </h1>
+    <br>
+    <textarea rows="6" cols="50" placeholder="chiaro" onkeyup="updateChiaro(),encoding(chiaro, verme)" id="chiaro-text"></textarea>
+    <br>
+    <textarea rows="6" cols="50" placeholder="verme (double click for a random one, 5 to 20 chars)" onkeyup="updateVerme(),encoding(chiaro, verme)" ondblclick="generaVerme(getRndInteger(5, 20)),updateVerme(),encoding(chiaro, verme)" id="verme-text"></textarea>
+    <br>
+    <textarea rows="6" cols="50" placeholder="cifrato" id="cifrato-text" readonly></textarea>
+  </div>
+<script src="js/encoding.js"></script>
+</body>
+</html>
