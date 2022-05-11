@@ -57,10 +57,12 @@ function setDefault(){
     vermeText.style.border = "none";
 }
 
-function getRndInteger(min, max) {                                       //Genera un intero casuale nel range di numeri passati come paramentri
+//Genera un intero casuale nel range di numeri passati come paramentri
+function getRndInteger(min, max) {                                       
     return Math.floor(Math.random() * (max - min + 1) ) + min;   
 }
 
+//Genera una stringa casuale composta da solo lettere dell'alfabeto. La lunghezza è stabilita dal parametro
 function generaVerme(length){
     let randomStr = "";
     for(let i = 0; i < length; i++){
