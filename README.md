@@ -16,4 +16,4 @@
 
 - Cifraccio in tempo reale
 - Controllo caratteri in tempo reale
-- Possibilità di generare un verme casuale tramite un doppio click sul 'textarea' corrispondente
+- Possibilità di generare un verme casuale tramite un doppio clic sul 'textarea' corrispondente
